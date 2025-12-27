@@ -19,6 +19,7 @@ Standard AdaLoRA relies heavily on gradient sensitivity for rank allocation, whi
 The repository focuses on the core implementation of the improved algorithm:
 
 * `/adalora/*`: The modified AdaLoRA implementation with magnitude-aware logic.
+* `exp.sh`: The automated shell script for running experiments on GLUE tasks with various alpha hyperparameters.
 * `run_glue.py`: The training script adapted with the necessary callbacks for dynamic rank updates.
 
 ---
